@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: Main Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.6863632, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 372241c8db1404a85b6374fdad805060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userSprite: {fileID: 0}
+  userNameLable: {fileID: 0}
+  CanvasSize: {x: 1000, y: 600}
+  ChallengeDisplayTime: 4
+  TournamentStep: 140
+  MouseScrollStep: 40
+  CoinBalance: 0
+  NumLives: 0
+  NumBombs: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac28060b00cbb42d4971b589cd515222, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DialogEnabled: 0
+  MenuSkin: {fileID: 0}
+  PanelHeight: 480
+  CoinsButtonPos: {x: 240, y: 120}
+  ItemsButtonPos: {x: 60, y: 120}
+  InitialPriceItemPos: {x: 40.9000015, y: 200}
+  PriceItemPosDelta: {x: 0, y: 45}
+  PriceItemSize: {x: 357, y: 40}
+  PriceItemFirstIconPos: {x: 9, y: 4}
+  PriceItemSecondIconPos: {x: 182, y: 4}
+  PriceItemSecondTextPos: 165
+  PayWithMobilePos: {x: 131.399994, y: 400.100006}
+  PayByMobileTextRect:
+    serializedVersion: 2
+    x: 132
+    y: 414
+    width: 198
+    height: 37
+  PayByMobileRect:
+    serializedVersion: 2
+    x: 156
+    y: 409
+    width: 165
+    height: 46
+  CloseButtonRect:
+    serializedVersion: 2
+    x: 420
+    y: 16
+    width: 37
+    height: 37
+  BombsRect:
+    serializedVersion: 2
+    x: 240.630005
+    y: 80
+    width: 0
+    height: 0
+  LivesRect:
+    serializedVersion: 2
+    x: 330.160004
+    y: 80
+    width: 0
+    height: 0
+  CoinsRect:
+    serializedVersion: 2
+    x: 151
+    y: 80
+    width: 0
+    height: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

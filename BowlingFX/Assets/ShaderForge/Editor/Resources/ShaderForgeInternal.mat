@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ShaderForgeInternal
+  m_Shader: {fileID: 4800000, guid: 9288838bcbf29453da96dedd0fd61bf8, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: 03313aedccbe7234f8839ebd9a94ae0e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node5
+        second:
+          m_Texture: {fileID: 2800000, guid: b3cd0c992510f49b9ad2605725396852, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node3
+        second:
+          m_Texture: {fileID: 8900000, guid: ec7492a418a14f5479116e9401c0dc0e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CubeMap
+        second:
+          m_Texture: {fileID: 8900000, guid: ec7492a418a14f5479116e9401c0dc0e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cubemulty
+        second: 1.42857099
+    m_Colors:
+      data:
+        first:
+          name: _color
+        second: {r: 0, g: .875862122, b: 1, a: 1}

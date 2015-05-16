@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: 4c4ab54464f4449ab894ba7b9a510200
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: left1_1
+    100002: left1_2
+    100004: orb
+    100006: orb 1
+    100008: right1_1
+    100010: right1_2
+    100012: //RootNode
+    100014: halfOrb1
+    100016: halfOrb2
+    100018: left_down
+    100020: left_orb
+    100022: left_rot
+    100024: left_side1
+    100026: left_side2
+    100028: right_down
+    100030: right_orb
+    100032: right_rot
+    100034: right_side1
+    100036: right_side2
+    400000: left1_1
+    400002: left1_2
+    400004: orb
+    400006: orb 1
+    400008: right1_1
+    400010: right1_2
+    400012: //RootNode
+    400014: halfOrb1
+    400016: halfOrb2
+    400018: left_down
+    400020: left_orb
+    400022: left_rot
+    400024: left_side1
+    400026: left_side2
+    400028: right_down
+    400030: right_orb
+    400032: right_rot
+    400034: right_side1
+    400036: right_side2
+    2300000: left1_1
+    2300002: left1_2
+    2300004: orb
+    2300006: orb 1
+    2300008: right1_1
+    2300010: right1_2
+    2300012: halfOrb1
+    2300014: halfOrb2
+    2300016: left_down
+    2300018: left_orb
+    2300020: left_rot
+    2300022: left_side1
+    2300024: left_side2
+    2300026: right_down
+    2300028: right_orb
+    2300030: right_rot
+    2300032: right_side1
+    2300034: right_side2
+    3300000: left1_1
+    3300002: left1_2
+    3300004: orb
+    3300006: orb 1
+    3300008: right1_1
+    3300010: right1_2
+    3300012: halfOrb1
+    3300014: halfOrb2
+    3300016: left_down
+    3300018: left_orb
+    3300020: left_rot
+    3300022: left_side1
+    3300024: left_side2
+    3300026: right_down
+    3300028: right_orb
+    3300030: right_rot
+    3300032: right_side1
+    3300034: right_side2
+    4300000: left1_1
+    4300002: orb
+    4300004: left1_2
+    4300006: right1_2
+    4300008: orb
+    4300010: right1_1
+    4300012: halfOrb1
+    4300014: halfOrb2
+    4300016: left_side1
+    4300018: left_down
+    4300020: left_side2
+    4300022: left_orb
+    4300024: left_rot
+    4300026: right_side1
+    4300028: right_down
+    4300030: right_side2
+    4300032: right_orb
+    4300034: right_rot
+    7400000: SteamOpen
+    7400002: SteamClose
+    7400004: SteamOpen //// SteamDoors
+    7400006: SteamClose //// SteamDoors
+    7400008: SteamClose
+    9500000: //RootNode
+    11100000: //RootNode
+    11100002: left1_1
+    11100004: left1_2
+    11100006: orb
+    11100008: orb 1
+    11100010: right1_1
+    11100012: right1_2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SteamOpen
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 68
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: SteamClose
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 131
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

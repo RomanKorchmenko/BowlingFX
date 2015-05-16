@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: GiftCollect
+  serializedVersion: 4
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: -2.66666508, y: -2.66666508, z: -2.66666508}
+        outSlope: {x: -2.66666508, y: -2.66666508, z: -2.66666508}
+        tangentMode: 0
+      - time: .333333343
+        value: {x: .111111112, y: .111111112, z: .111111112}
+        inSlope: {x: -2.66666603, y: -2.66666603, z: -2.66666603}
+        outSlope: {x: -2.66666603, y: -2.66666603, z: -2.66666603}
+        tangentMode: 127338508
+      - time: .37500003
+        value: {x: 9.99999996e-13, y: 9.99999996e-13, z: 9.99999996e-13}
+        inSlope: {x: -2.66666532, y: -2.66666532, z: -2.66666532}
+        outSlope: {x: -2.66666532, y: -2.66666532, z: -2.66666532}
+        tangentMode: 2147418112
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: 
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 24
+  m_WrapMode: 8
+  m_Bounds:
+    m_Center: {x: -21266, y: 12127314, z: 473644}
+    m_Extent: {x: 12298448, y: 12127314, z: 14578252}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: .958333313
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

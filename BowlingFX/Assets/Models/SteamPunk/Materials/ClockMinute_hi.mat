@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ClockMinute_hi
+  m_Shader: {fileID: 4800000, guid: e90cbe0f5c17a427691fe00eb91219e2, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0a0d1711257f540c7a25a1a97f86a113, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diff
+        second:
+          m_Texture: {fileID: 2800000, guid: 48a42912b1f39c943b95d16984906941, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 8045f1cf44c5e48d191d2419e05bf27d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Texture
+        second:
+          m_Texture: {fileID: 2800000, guid: 0a0d1711257f540c7a25a1a97f86a113, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _multycube
+        second: 1.26999998
+      data:
+        first:
+          name: _CubeForce
+        second: 3.875
+      data:
+        first:
+          name: _Intensity
+        second: 8
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _color
+        second: {r: 1, g: 1, b: 1, a: 1}

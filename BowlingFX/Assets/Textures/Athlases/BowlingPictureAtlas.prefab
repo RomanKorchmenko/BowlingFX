@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: BowlingPictureAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f514313262e3d141ad017b60809752a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: f69f48eaf63a6430780ed0db53760a92, type: 2}
+  items:
+  - name: bomb
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .78515625
+      width: .1953125
+      height: .1953125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 200, y: 200}
+    textureGUID: 8e9e6e59257874afc923ec857f607565
+    deleted: 0
+    texture: {fileID: 0}
+  - name: curve
+    region:
+      serializedVersion: 2
+      x: .392578125
+      y: .392578125
+      width: .1953125
+      height: .1953125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 200, y: 200}
+    textureGUID: 282965271b2ee4525a620b9cf7157e00
+    deleted: 0
+    texture: {fileID: 0}
+  - name: diagonal
+    region:
+      serializedVersion: 2
+      x: .78515625
+      y: 0
+      width: .1953125
+      height: .1953125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 200, y: 200}
+    textureGUID: 26850f08b2710441bbc846e765b33976
+    deleted: 0
+    texture: {fileID: 0}
+  - name: direct
+    region:
+      serializedVersion: 2
+      x: .197265625
+      y: .78515625
+      width: .1953125
+      height: .1953125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 200, y: 200}
+    textureGUID: f8f389c4c28d443929b8fb8e2895399a
+    deleted: 0
+    texture: {fileID: 0}
+  - name: gift
+    region:
+      serializedVersion: 2
+      x: .58984375
+      y: .392578125
+      width: .1953125
+      height: .1953125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 200, y: 200}
+    textureGUID: b506ed41b1fe54fecb16a0b8bac8b9a6
+    deleted: 0
+    texture: {fileID: 0}
+  - name: HanamiPreview
+    region:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: .390625
+      height: .390625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 400, y: 400}
+    textureGUID: abea03573762c4d05bd0392214375de0
+    deleted: 0
+    texture: {fileID: 0}
+  - name: SciFiPreview
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .392578125
+      width: .390625
+      height: .390625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 400, y: 400}
+    textureGUID: 0d918200ef466456895cae5dbb084efa
+    deleted: 0
+    texture: {fileID: 0}
+  - name: SteamPreview
+    region:
+      serializedVersion: 2
+      x: .392578125
+      y: 0
+      width: .390625
+      height: .390625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 400, y: 400}
+    textureGUID: 31a314d8525264280b3951570a43c63c
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tilt
+    region:
+      serializedVersion: 2
+      x: .39453125
+      y: .58984375
+      width: .1953125
+      height: .1953125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 200, y: 200}
+    textureGUID: c79c649310e704876add5766b40f45ac
+    deleted: 0
+    texture: {fileID: 0}
+  generator: 0
+  imageFileGUID: 
+  dataFileGUID: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

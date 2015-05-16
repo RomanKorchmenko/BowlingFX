@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: planet_mat_hi
+  m_Shader: {fileID: 4800000, guid: eca242393e127462482de472c5392ec5, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diff
+        second:
+          m_Texture: {fileID: 2800000, guid: d97ed94b3fbf84a92bbad759ac8fa765, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: d97ed94b3fbf84a92bbad759ac8fa765, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _gradient
+        second:
+          m_Texture: {fileID: 2800000, guid: 45f71f0251c6847b7a2c119d6033ad6f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _night
+        second:
+          m_Texture: {fileID: 2800000, guid: 45f71f0251c6847b7a2c119d6033ad6f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _cubeAmmount
+        second: .5
+      data:
+        first:
+          name: _fresnel
+        second: .361407012
+      data:
+        first:
+          name: _timeMulty
+        second: .0199999996
+      data:
+        first:
+          name: _timespeed
+        second: .00999999978
+      data:
+        first:
+          name: _falloff
+        second: .699999988
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _powcolor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _fill
+        second: {r: .308823526, g: .308823526, b: .308823526, a: 1}
+      data:
+        first:
+          name: _albedocolor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _multyColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _nightOffset
+        second: {r: -23, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _nightMulty
+        second: {r: .110294104, g: .013786763, b: .013786763, a: 1}
+      data:
+        first:
+          name: _border
+        second: {r: .166414365, g: .504641593, b: .838235259, a: 1}

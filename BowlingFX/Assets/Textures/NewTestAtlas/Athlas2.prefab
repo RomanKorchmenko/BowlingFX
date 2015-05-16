@@ -1,0 +1,772 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Athlas2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f514313262e3d141ad017b60809752a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: ededb18533d8540148d1392f899a5ce6, type: 2}
+  items:
+  - name: ArrowSide
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .681640625
+      width: .0625
+      height: .302734375
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 64, y: 310}
+    textureGUID: 9fb07c4de8548d14c92d438b471fafea
+    deleted: 0
+    texture: {fileID: 0}
+  - name: bar_1
+    region:
+      serializedVersion: 2
+      x: .421875
+      y: .2578125
+      width: .46875
+      height: .044921875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 480, y: 46}
+    textureGUID: d05f93af3a52e4b35af34443507f8036
+    deleted: 0
+    texture: {fileID: 0}
+  - name: bar1_back
+    region:
+      serializedVersion: 2
+      x: .421875
+      y: .3046875
+      width: .46875
+      height: .044921875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 480, y: 46}
+    textureGUID: 4f25cfc93e1344b04a1ca0baf08a899b
+    deleted: 0
+    texture: {fileID: 0}
+  - name: blackDot
+    region:
+      serializedVersion: 2
+      x: .348632812
+      y: .458984375
+      width: .0078125
+      height: .0078125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 8, y: 8}
+    textureGUID: c179f96521282e745bcb5f87677afd65
+    deleted: 0
+    texture: {fileID: 0}
+  - name: BlackPanel
+    region:
+      serializedVersion: 2
+      x: .864257812
+      y: .478515625
+      width: .107421875
+      height: .0830078125
+    border:
+      m_Left: 10
+      m_Right: 10
+      m_Top: 10
+      m_Bottom: 10
+    rotated: 0
+    sizeInPixels: {x: 110, y: 85}
+    textureGUID: 4ecea8751edaff64e9a2219913976fd6
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Blue
+    region:
+      serializedVersion: 2
+      x: .688476562
+      y: .3515625
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 0886c08025fbada4ba91561edb58a547
+    deleted: 0
+    texture: {fileID: 0}
+  - name: bombBtn
+    region:
+      serializedVersion: 2
+      x: .815429688
+      y: .3515625
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 0e196321212407540ab21493b73f05e7
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Btn_achevements_inactive
+    region:
+      serializedVersion: 2
+      x: .208984375
+      y: .458984375
+      width: .137695312
+      height: .12890625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 141, y: 132}
+    textureGUID: cbb955fd5ffa86b4b9efcff78a41d3ae
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Btn_FShare_inactive
+    region:
+      serializedVersion: 2
+      x: .064453125
+      y: .681640625
+      width: .137695312
+      height: .12890625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 141, y: 132}
+    textureGUID: e343c0e9d92006f48b6139e7fefdb6d2
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Btn_gpg_inactive
+    region:
+      serializedVersion: 2
+      x: .064453125
+      y: .8125
+      width: .137695312
+      height: .12890625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 141, y: 132}
+    textureGUID: 6a40e66a0386f414c9646f38546d5495
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Btn_GPlust_inactive
+    region:
+      serializedVersion: 2
+      x: .208984375
+      y: .58984375
+      width: .137695312
+      height: .12890625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 141, y: 132}
+    textureGUID: 54f5951f5ac71844794882d1c25a477f
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Btn_leader_inactive
+    region:
+      serializedVersion: 2
+      x: .204101562
+      y: .720703125
+      width: .137695312
+      height: .12890625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 141, y: 132}
+    textureGUID: ac56a73dc42ee6348987dd77debd69d0
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Btn_out_inactive
+    region:
+      serializedVersion: 2
+      x: .204101562
+      y: .8515625
+      width: .137695312
+      height: .12890625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 141, y: 132}
+    textureGUID: 43b4b02baa6c94f2c9b0e280b6fb7a93
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Btn_store_inactive
+    region:
+      serializedVersion: 2
+      x: .421875
+      y: .3515625
+      width: .137695312
+      height: .12890625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 141, y: 132}
+    textureGUID: 9dbd16c4f400441cfad6b6c3124aef89
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Btn1_inactive_sliced
+    region:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: .9375
+      height: .12890625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 960, y: 132}
+    textureGUID: 76ae5882991454667a3b3cd1effcc5d2
+    deleted: 0
+    texture: {fileID: 0}
+  - name: exitmenu
+    region:
+      serializedVersion: 2
+      x: .688476562
+      y: .478515625
+      width: .173828125
+      height: .064453125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 178, y: 66}
+    textureGUID: 0691621ddf651e94f9f8300b3874fa2e
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Fingerprint
+    region:
+      serializedVersion: 2
+      x: .348632812
+      y: .482421875
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: cbd5ff77b3a644663b5d6b66981f213d
+    deleted: 0
+    texture: {fileID: 0}
+  - name: gradE
+    region:
+      serializedVersion: 2
+      x: .602539062
+      y: .479492188
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 64, y: 64}
+    textureGUID: 3987e32e6f3794e8b949e90f86bedca6
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Green
+    region:
+      serializedVersion: 2
+      x: .348632812
+      y: .609375
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 04307b00309187d428fff0c5aef2d2e9
+    deleted: 0
+    texture: {fileID: 0}
+  - name: panel1
+    region:
+      serializedVersion: 2
+      x: .34375
+      y: .736328125
+      width: .125
+      height: .125
+    border:
+      m_Left: 70
+      m_Right: 70
+      m_Top: 70
+      m_Bottom: 70
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 19aa99e74b4fd4602a74d8cafcc4c460
+    deleted: 0
+    texture: {fileID: 0}
+  - name: pause_active
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .458984375
+      width: .20703125
+      height: .109375
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 212, y: 112}
+    textureGUID: 9588df9b8c8c24f50a2e6534c1387840
+    deleted: 0
+    texture: {fileID: 0}
+  - name: pause_inactive
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .5703125
+      width: .20703125
+      height: .109375
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 212, y: 112}
+    textureGUID: 2d56b1065d61f46e3a673feb61a3df3d
+    deleted: 0
+    texture: {fileID: 0}
+  - name: poTop_inactive
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .2578125
+      width: .419921875
+      height: .10546875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 430, y: 108}
+    textureGUID: 668a1f28609384ea2ad30d4846c3006d
+    deleted: 0
+    texture: {fileID: 0}
+  - name: ramkaA
+    region:
+      serializedVersion: 2
+      x: .892578125
+      y: .2578125
+      width: .03125
+      height: .03125
+    border:
+      m_Left: 16
+      m_Right: 16
+      m_Top: 16
+      m_Bottom: 16
+    rotated: 0
+    sizeInPixels: {x: 32, y: 32}
+    textureGUID: 0230ac09c7172431088efb065c84c098
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Red
+    region:
+      serializedVersion: 2
+      x: .34375
+      y: .86328125
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: fd55e9f598f6c6a4fbd55086cfdd5e39
+    deleted: 0
+    texture: {fileID: 0}
+  - name: RedCrossInactive
+    region:
+      serializedVersion: 2
+      x: .602539062
+      y: .543945312
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 64, y: 64}
+    textureGUID: 8fb2fb7ca7b6048e1ad8ee4c66119bfc
+    deleted: 0
+    texture: {fileID: 0}
+  - name: redDot
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .990234375
+      width: .0078125
+      height: .0078125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 8, y: 8}
+    textureGUID: 96a1f8bb8a506814bacdd545c50ba696
+    deleted: 0
+    texture: {fileID: 0}
+  - name: rounded1pix
+    region:
+      serializedVersion: 2
+      x: .939453125
+      y: .119140625
+      width: .05859375
+      height: .05859375
+    border:
+      m_Left: 15
+      m_Right: 16
+      m_Top: 16
+      m_Bottom: 16
+    rotated: 0
+    sizeInPixels: {x: 60, y: 60}
+    textureGUID: cc4ddb713bfb54155874ca9c1a94e3e0
+    deleted: 0
+    texture: {fileID: 0}
+  - name: sliced_01
+    region:
+      serializedVersion: 2
+      x: .602539062
+      y: .608398438
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 20
+      m_Right: 20
+      m_Top: 20
+      m_Bottom: 20
+    rotated: 0
+    sizeInPixels: {x: 64, y: 64}
+    textureGUID: 5a49f2a91e4a8644f9957ec0b5195181
+    deleted: 0
+    texture: {fileID: 0}
+  - name: sliced_02
+    region:
+      serializedVersion: 2
+      x: .602539062
+      y: .672851562
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 20
+      m_Right: 20
+      m_Top: 20
+      m_Bottom: 20
+    rotated: 0
+    sizeInPixels: {x: 64, y: 64}
+    textureGUID: 4bcf438ea0a554a94a0b911ad6fc4242
+    deleted: 0
+    texture: {fileID: 0}
+  - name: sliced_04
+    region:
+      serializedVersion: 2
+      x: .36328125
+      y: .365234375
+      width: .0341796875
+      height: .068359375
+    border:
+      m_Left: 12
+      m_Right: 12
+      m_Top: 16
+      m_Bottom: 16
+    rotated: 0
+    sizeInPixels: {x: 35, y: 70}
+    textureGUID: 6dda08ffa209fb94a9d328c03b000565
+    deleted: 0
+    texture: {fileID: 0}
+  - name: starWin_off
+    region:
+      serializedVersion: 2
+      x: .475585938
+      y: .482421875
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 3985ac5010244d840a5fca25d7cc69c6
+    deleted: 0
+    texture: {fileID: 0}
+  - name: starWin_on
+    region:
+      serializedVersion: 2
+      x: .475585938
+      y: .609375
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 5fb4a28aedbc05f438f9185fad0def41
+    deleted: 0
+    texture: {fileID: 0}
+  - name: StatistikForward
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .130859375
+      width: .9375
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 960, y: 128}
+    textureGUID: 91e3085cdc3424d4ca5dcea56b8f8d01
+    deleted: 0
+    texture: {fileID: 0}
+  - name: textPanel
+    region:
+      serializedVersion: 2
+      x: .470703125
+      y: .86328125
+      width: .119140625
+      height: .103515625
+    border:
+      m_Left: 33
+      m_Right: 33
+      m_Top: 33
+      m_Bottom: 33
+    rotated: 0
+    sizeInPixels: {x: 122, y: 106}
+    textureGUID: 2ebe3a85b6b8d7941ab02eb502453374
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tile3
+    region:
+      serializedVersion: 2
+      x: .064453125
+      y: .943359375
+      width: .0390625
+      height: .0390625
+    border:
+      m_Left: 14
+      m_Right: 14
+      m_Top: 14
+      m_Bottom: 14
+    rotated: 0
+    sizeInPixels: {x: 40, y: 40}
+    textureGUID: e458c396746704138a9deb9984413390
+    deleted: 0
+    texture: {fileID: 0}
+  - name: TiltBtn
+    region:
+      serializedVersion: 2
+      x: .470703125
+      y: .736328125
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: ea9c304ef8d97e4479d91a8b091776c1
+    deleted: 0
+    texture: {fileID: 0}
+  - name: topPlayer
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .365234375
+      width: .361328125
+      height: .091796875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 370, y: 94}
+    textureGUID: 9e1db89d2b47d49b786fd2e9d4f03c8a
+    deleted: 0
+    texture: {fileID: 0}
+  - name: turnArrow
+    region:
+      serializedVersion: 2
+      x: .561523438
+      y: .3515625
+      width: .125
+      height: .125976562
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 129}
+    textureGUID: 0a3f4e7bf8b8d497e81d964b7959d088
+    deleted: 0
+    texture: {fileID: 0}
+  - name: vstavka
+    region:
+      serializedVersion: 2
+      x: .939453125
+      y: 0
+      width: .05859375
+      height: .1171875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 60, y: 120}
+    textureGUID: 2174a7a4df8ddf748a687bff2d7fee01
+    deleted: 0
+    texture: {fileID: 0}
+  - name: zabluchka
+    region:
+      serializedVersion: 2
+      x: .939453125
+      y: .1796875
+      width: .05859375
+      height: .05859375
+    border:
+      m_Left: 14
+      m_Right: 14
+      m_Top: 14
+      m_Bottom: 14
+    rotated: 0
+    sizeInPixels: {x: 60, y: 60}
+    textureGUID: fcbbcab494b00684dada6a8e531d65e1
+    deleted: 0
+    texture: {fileID: 0}
+  - name: zabluchka_white
+    region:
+      serializedVersion: 2
+      x: .939453125
+      y: .240234375
+      width: .05859375
+      height: .05859375
+    border:
+      m_Left: 14
+      m_Right: 14
+      m_Top: 14
+      m_Bottom: 14
+    rotated: 0
+    sizeInPixels: {x: 60, y: 60}
+    textureGUID: b8455bc28fa842443bbf33f3777cac38
+    deleted: 0
+    texture: {fileID: 0}
+  generator: 0
+  imageFileGUID: 
+  dataFileGUID: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

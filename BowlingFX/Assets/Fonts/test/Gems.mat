@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Gems
+  m_Shader: {fileID: 4800000, guid: e3e99022da6024812ac32f38e015faa6, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 867e7bc140dc141eeba340b2b1e0eff7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: dab0806454e4d924491b1b84dddaa6b7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 41828867262639c4c93a104ceef22ca7, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MatCap
+        second:
+          m_Texture: {fileID: 2800000, guid: b3cd0c992510f49b9ad2605725396852, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RefractTex
+        second:
+          m_Texture: {fileID: 8900000, guid: ec7492a418a14f5479116e9401c0dc0e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectTex
+        second:
+          m_Texture: {fileID: 8900000, guid: 32ae6677f90660b49a620bdc895b654a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectTexlow
+        second:
+          m_Texture: {fileID: 2800000, guid: 281de59a01b5040e69ff5f941f17ffc1, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RefractTexlow
+        second:
+          m_Texture: {fileID: 2800000, guid: b3cd0c992510f49b9ad2605725396852, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 1
+      data:
+        first:
+          name: _Outline
+        second: .00200000009
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .221298531, g: .291044772, b: .169414118, a: .607843161}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .888059676, g: .622967243, b: .622967243, a: .576470613}
+      data:
+        first:
+          name: _Emission
+        second: {r: .24626863, g: .24626863, b: .24626863, a: .525490224}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: 1, g: .461434096, b: .0373134613, a: .501960814}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Fog
+        second: {r: .388059676, g: .388059676, b: .388059676, a: .564705908}

@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ClockGlass
+  m_Shader: {fileID: 4800000, guid: d72ce0de1414b44be9a197f424adc1af, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diff
+        second:
+          m_Texture: {fileID: 2800000, guid: 744567d8fec642c42a9bfad69496ca35, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: b6ebafcc86fbe434a8f47a2f8e346f07, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CubeMap
+        second:
+          m_Texture: {fileID: 8900000, guid: b6ebafcc86fbe434a8f47a2f8e346f07, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RefractTex
+        second:
+          m_Texture: {fileID: 8900000, guid: d8078859217db4649a47ca26680957be, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectTex
+        second:
+          m_Texture: {fileID: 8900000, guid: ec7492a418a14f5479116e9401c0dc0e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectTexlow
+        second:
+          m_Texture: {fileID: 2800000, guid: 5227cf3bffde54879a2f5e9abb7abb2c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RefractTexlow
+        second:
+          m_Texture: {fileID: 2800000, guid: 5e4ab9b3b296d49cca2f692fdc721589, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .00999999978
+      data:
+        first:
+          name: _multycube
+        second: 2
+      data:
+        first:
+          name: _CubeSlider
+        second: .160714284
+      data:
+        first:
+          name: _FresnelSlider
+        second: .125
+      data:
+        first:
+          name: _freshnelRange
+        second: .470149249
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .0875865147, g: .250342995, b: .33088237, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .33088237, g: .33088237, b: .33088237, a: 1}
+      data:
+        first:
+          name: _color
+        second: {r: .054714527, g: .161764681, b: .159665659, a: 1}
+      data:
+        first:
+          name: _Emission
+        second: {r: .301470578, g: .301470578, b: .301470578, a: 1}
+      data:
+        first:
+          name: _CubeColor
+        second: {r: .277627587, g: .530688524, b: .580882311, a: 1}
+      data:
+        first:
+          name: _Fog
+        second: {r: 0, g: 0, b: 0, a: 0}

@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: scifi_Ball_hi_mat
+  m_Shader: {fileID: 4800000, guid: 9288838bcbf29453da96dedd0fd61bf8, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 03114dbd57dc847e4ab6569c2d84b6bb, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 7b2aa0caa836d51418db0fe4a20f7091, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diff
+        second:
+          m_Texture: {fileID: 2800000, guid: 65cbfbd5e63784e87af09861df7cabdf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 1, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: d8078859217db4649a47ca26680957be, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: 03313aedccbe7234f8839ebd9a94ae0e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _diff
+        second:
+          m_Texture: {fileID: 2800000, guid: 65cbfbd5e63784e87af09861df7cabdf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 8045f1cf44c5e48d191d2419e05bf27d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node5
+        second:
+          m_Texture: {fileID: 2800000, guid: 03313aedccbe7234f8839ebd9a94ae0e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node3
+        second:
+          m_Texture: {fileID: 8900000, guid: b6ebafcc86fbe434a8f47a2f8e346f07, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CubeMap
+        second:
+          m_Texture: {fileID: 8900000, guid: b6ebafcc86fbe434a8f47a2f8e346f07, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Spec_Gloss_Reflec_Masks
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Reflection
+        second: .37500003
+      data:
+        first:
+          name: _Shininess
+        second: .112088501
+      data:
+        first:
+          name: _cubeAmmount
+        second: 1
+      data:
+        first:
+          name: _Gloss
+        second: .660714328
+      data:
+        first:
+          name: _FrezPow
+        second: .535714269
+      data:
+        first:
+          name: _FrezFalloff
+        second: 8.46428585
+      data:
+        first:
+          name: _EdgeAlpha
+        second: 0
+      data:
+        first:
+          name: _Metalics
+        second: .482142866
+      data:
+        first:
+          name: _MultyTime
+        second: .100000001
+      data:
+        first:
+          name: _distMulty
+        second: .0399999991
+      data:
+        first:
+          name: _opa
+        second: .5
+      data:
+        first:
+          name: _fresnel
+        second: 2
+      data:
+        first:
+          name: _add2
+        second: 78
+      data:
+        first:
+          name: _add3
+        second: 4.4000001
+      data:
+        first:
+          name: _add
+        second: .140000001
+      data:
+        first:
+          name: _powRange
+        second: .482142866
+      data:
+        first:
+          name: _envRange
+        second: .446428567
+      data:
+        first:
+          name: _Cubemulty
+        second: 3
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .723880589, g: .610436618, b: .708014309, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _color
+        second: {r: .160250887, g: .402517527, b: .573529422, a: 1}
+      data:
+        first:
+          name: _powcolor
+        second: {r: .0955341458, g: .162194192, b: .227941155, a: 1}

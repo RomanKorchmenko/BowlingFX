@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="mistorcaveman__sliding-door-closing-1-2_data" version="1.3.0" audacityversion="2.0.2" sel0="1.2430037446" sel1="1.2430037446" vpos="0" h="0.0000000000" zoom="240.5463389070" rate="48000.0">
+	<tags/>
+	<wavetrack name="mistorcaveman__sliding-door-closing-1-2" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="39909">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000817.au" len="39909" min="-0.105898" max="0.190466" rms="0.015343"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="mistorcaveman__sliding-door-closing-1-2" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="39909">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000610.au" len="39909" min="-0.062575" max="0.066248" rms="0.008148"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<labeltrack name="Label Track" numlabels="1" height="73" minimized="0" isSelected="0">
+		<label t="0.85222665" t1="0.85222665" title="B"/>
+	</labeltrack>
+</project>

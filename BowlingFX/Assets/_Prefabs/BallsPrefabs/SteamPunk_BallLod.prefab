@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400004}
+  - 33: {fileID: 3300000}
+  - 135: {fileID: 13500000}
+  - 114: {fileID: 11400000}
+  - 82: {fileID: 8200004}
+  - 23: {fileID: 2300000}
+  - 114: {fileID: 11400002}
+  m_Layer: 11
+  m_Name: SteamPunk_BallLod
+  m_TagString: activeball
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.33457375, y: 2.15222931, z: 1.91643238}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2300000
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 6d447744ac203ac4b9895ddc59278235, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Mesh: {fileID: 4300000, guid: 80694ea2fa98a304fb53e68ac9b1d1b0, type: 3}
+--- !u!82 &8200004
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: .800000012
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 30
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: -.468205839
+      outSlope: -.468205839
+      tangentMode: 0
+    - time: 1
+      value: .0599999987
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: .0309166666
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4bc413640fd44b969b26462f22ca56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impact: {fileID: 8300000, guid: 2e2ebd3777b4962478e4fa5a473dc407, type: 3}
+  KegelImpacts:
+  - {fileID: 8300000, guid: bd732354461ee4cc5b846ad78c370fd0, type: 3}
+  - {fileID: 8300000, guid: 7606ff353312e473190d95c46e3971ba, type: 3}
+  - {fileID: 8300000, guid: d195e54655ec34a8c883d23d4da91e54, type: 3}
+  - {fileID: 8300000, guid: 25818a966143340809b38a8e9d0f373b, type: 3}
+  KegelImpactDefoult: {fileID: 8300000, guid: 5a3e3bc7e035d4093b92322bcd7c31d6, type: 3}
+  timer: 70
+  currentQuality: 0
+  Explosions:
+  - {fileID: 100000, guid: 08d89d7f249224f36843a01e4d3050a3, type: 2}
+  - {fileID: 100000, guid: 41eb0ba6c5c6e48308977eecf5f92d7b, type: 2}
+  - {fileID: 100000, guid: 674ed5808fc044066b0708606154932b, type: 2}
+  - {fileID: 100000, guid: 7aa30d1a545de4e408941f4f1b720de3, type: 2}
+  changer: 0
+  dist: 80
+  drag: 0
+  ballSpeed: 0
+  timerPause: 0
+  move: {x: 0, y: 0, z: 0}
+  velocity: 0
+  direction: 0
+  dragging: 0
+  gyroX: 0
+  gyroBool: 0
+  gyroEnable: 0
+  bombBool: 0
+  bombEnable: 0
+  Boom: {fileID: 100000, guid: 13266a9cf8da28e41bfa61b378dfabc5, type: 2}
+  twisted: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4522fbda08c744178f589fdd75db63f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lowMat: {fileID: 2100000, guid: 6d42b802dc755274c96c0f8993afad04, type: 2}
+  hiMat: {fileID: 2100000, guid: 6d447744ac203ac4b9895ddc59278235, type: 2}
+  currentQuality: 0
+  qualityMy: 2
+--- !u!135 &13500000
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.1500001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100004}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: EnvironmentBall
+  m_Shader: {fileID: 4800000, guid: d40fe2fe8ec542a4da2770a1b97143b4, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _diff
+        second:
+          m_Texture: {fileID: 2800000, guid: 41ce27dc6feb445af8e7ef7d375b443d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _cube
+        second:
+          m_Texture: {fileID: 8900000, guid: d2c33a614f8ef3744ae67b650deedb6b, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _nm
+        second:
+          m_Texture: {fileID: 2800000, guid: 08d05857c4618c343ba920e06f70c1c3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _add2
+        second: .800000012
+      data:
+        first:
+          name: _add3
+        second: .930000007
+      data:
+        first:
+          name: _add
+        second: .910000026
+    m_Colors:
+      data:
+        first:
+          name: _color
+        second: {r: .364046633, g: .176470578, b: .375, a: .435294122}

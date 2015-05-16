@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: oceanForge
+  m_Shader: {fileID: 4800000, guid: 24aa84276bd675c4eb149886ce51e78d, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: a596436b21c6d484bb9b3b6385e3e666, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node2
+        second:
+          m_Texture: {fileID: 2800000, guid: dab0806454e4d924491b1b84dddaa6b7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 2800000, guid: dab0806454e4d924491b1b84dddaa6b7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal2
+        second:
+          m_Texture: {fileID: 2800000, guid: dab0806454e4d924491b1b84dddaa6b7, type: 3}
+          m_Scale: {x: .5, y: .5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal1
+        second:
+          m_Texture: {fileID: 2800000, guid: 924b8fa2da0f64d0392af229c6ba4863, type: 3}
+          m_Scale: {x: .5, y: .5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node13
+        second:
+          m_Texture: {fileID: 8900000, guid: 814aaa653ebb4624e97c06f50e6b8125, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node80
+        second:
+          m_Texture: {fileID: 2800000, guid: dab0806454e4d924491b1b84dddaa6b7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _timeMulty
+        second: .0357142873
+      data:
+        first:
+          name: _node35
+        second: .00899999961
+      data:
+        first:
+          name: _Multy1
+        second: .446428567
+      data:
+        first:
+          name: _Multy2
+        second: .375
+      data:
+        first:
+          name: _node105
+        second: 2.14285707
+      data:
+        first:
+          name: _node34
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _node101
+        second: {r: 0, g: .448275894, b: .764705896, a: 1}

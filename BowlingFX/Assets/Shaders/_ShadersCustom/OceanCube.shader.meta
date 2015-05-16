@@ -1,0 +1,8 @@
+fileFormatVersion: 2
+guid: d844131af8bbda2408218b26d25af45c
+ShaderImporter:
+  defaultTextures:
+  - _Normal: {fileID: 2800000, guid: 779f088d06e1dd34cb94e47165cac838, type: 3}
+  - _Cube: {fileID: 8900000, guid: 2f821dbbb5e173e468876ef2e4eaa490, type: 2}
+  - _Normal2: {fileID: 2800000, guid: 1936953540671453daa32bee58124b0c, type: 3}
+  userData: 

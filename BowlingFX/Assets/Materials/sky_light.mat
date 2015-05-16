@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: sky_light
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 3e4bc99f77526774e8278251af0e7fae, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _gradient
+        second:
+          m_Texture: {fileID: 2800000, guid: edea64f4f8fd7b34ba537b1a41df0eed, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _smollClowds
+        second:
+          m_Texture: {fileID: 2800000, guid: 01d002b4a19ba6b4885485d07e6f69d5, type: 3}
+          m_Scale: {x: 2, y: 2}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _bigClowds
+        second:
+          m_Texture: {fileID: 2800000, guid: b864cd0f9c819a84ebaaa2235f9a900f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _middleClowds
+        second:
+          m_Texture: {fileID: 2800000, guid: 10e765c5f0a24fd41b3aadc93844567b, type: 3}
+          m_Scale: {x: 2, y: 2}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _RimPower
+        second: .100000001
+      data:
+        first:
+          name: _Glossiness
+        second: .416618973
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _DiffuseColor
+        second: {r: .33088237, g: .210610345, b: .175173014, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 1, g: .766328573, b: .470588207, a: 1}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: .286764681, g: .180144072, b: .122296698, a: 1}

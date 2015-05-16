@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: 3c0257514821a744dbf63a37fe038d95
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bone025
+    100002: Bone026
+    100004: Bone027
+    100006: Bone028
+    100008: Bone029
+    100010: Bone030
+    100012: Bone031
+    100014: Bone032
+    100016: Bone033
+    100018: Bone034
+    100020: Bone035
+    100022: Bone036
+    100024: Bone037
+    100026: Bone038
+    100028: Bone039
+    100030: Bone040
+    100032: Bone041
+    100034: Bone042
+    100036: Bone043
+    100038: Bone044
+    100040: Bone045
+    100042: Bone046
+    100044: Bone047
+    100046: Bone048
+    100048: Bone049
+    100050: Bone050
+    100052: Bone051
+    100054: Bone052
+    100056: Bone053
+    100058: Bone054
+    100060: //RootNode
+    100062: Object032
+    400000: Bone025
+    400002: Bone026
+    400004: Bone027
+    400006: Bone028
+    400008: Bone029
+    400010: Bone030
+    400012: Bone031
+    400014: Bone032
+    400016: Bone033
+    400018: Bone034
+    400020: Bone035
+    400022: Bone036
+    400024: Bone037
+    400026: Bone038
+    400028: Bone039
+    400030: Bone040
+    400032: Bone041
+    400034: Bone042
+    400036: Bone043
+    400038: Bone044
+    400040: Bone045
+    400042: Bone046
+    400044: Bone047
+    400046: Bone048
+    400048: Bone049
+    400050: Bone050
+    400052: Bone051
+    400054: Bone052
+    400056: Bone053
+    400058: Bone054
+    400060: //RootNode
+    400062: Object032
+    2300000: Object032
+    3300000: Object032
+    4300000: Object032
+    7400000: Take 001
+    7400002: Take 001 //// Object032
+    7400004: Take 001 //// Bone031
+    9500000: //RootNode
+    11100000: //RootNode
+    11100002: Bone025
+    11100004: Bone026
+    11100006: Bone027
+    11100008: Bone028
+    11100010: Bone029
+    11100012: Bone030
+    11100014: Bone031
+    11100016: Bone032
+    11100018: Bone033
+    11100020: Bone034
+    11100022: Bone035
+    11100024: Bone036
+    11100026: Bone037
+    11100028: Bone038
+    11100030: Bone039
+    11100032: Bone040
+    11100034: Bone041
+    11100036: Bone042
+    11100038: Bone043
+    11100040: Bone044
+    11100042: Bone045
+    11100044: Bone046
+    11100046: Bone047
+    11100048: Bone048
+    11100050: Bone049
+    11100052: Bone050
+    11100054: Bone051
+    11100056: Bone052
+    11100058: Bone053
+    11100060: Bone054
+    11100062: Object032
+    13700000: Object032
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone031
+        weight: 1
+      - path: Bone031/Bone025
+        weight: 1
+      - path: Bone031/Bone025/Bone026
+        weight: 1
+      - path: Bone031/Bone025/Bone026/Bone027
+        weight: 1
+      - path: Bone031/Bone025/Bone026/Bone027/Bone028
+        weight: 1
+      - path: Bone031/Bone025/Bone026/Bone027/Bone028/Bone029
+        weight: 1
+      - path: Bone031/Bone025/Bone026/Bone027/Bone028/Bone029/Bone030
+        weight: 1
+      - path: Bone031/Bone025/Bone026/Bone027/Bone028/Bone029/Bone030/Bone053
+        weight: 1
+      - path: Bone031/Bone025/Bone026/Bone027/Bone028/Bone029/Bone030/Bone053/Bone054
+        weight: 1
+      - path: Bone031/Bone025/Bone026/Bone037
+        weight: 1
+      - path: Bone031/Bone025/Bone026/Bone037/Bone038
+        weight: 1
+      - path: Bone031/Bone025/Bone026/Bone037/Bone038/Bone039
+        weight: 1
+      - path: Bone031/Bone025/Bone026/Bone037/Bone038/Bone039/Bone040
+        weight: 1
+      - path: Bone031/Bone025/Bone026/Bone048
+        weight: 1
+      - path: Bone031/Bone025/Bone026/Bone048/Bone047
+        weight: 1
+      - path: Bone031/Bone025/Bone026/Bone048/Bone047/Bone045
+        weight: 1
+      - path: Bone031/Bone025/Bone026/Bone048/Bone047/Bone045/Bone046
+        weight: 1
+      - path: Bone031/Bone025/Bone041
+        weight: 1
+      - path: Bone031/Bone025/Bone041/Bone042
+        weight: 1
+      - path: Bone031/Bone025/Bone041/Bone042/Bone043
+        weight: 1
+      - path: Bone031/Bone025/Bone041/Bone042/Bone043/Bone044
+        weight: 1
+      - path: Bone031/Bone025/Bone052
+        weight: 1
+      - path: Bone031/Bone025/Bone052/Bone050
+        weight: 1
+      - path: Bone031/Bone025/Bone052/Bone050/Bone051
+        weight: 1
+      - path: Bone031/Bone025/Bone052/Bone050/Bone051/Bone049
+        weight: 1
+      - path: Bone031/Bone032
+        weight: 1
+      - path: Bone031/Bone032/Bone033
+        weight: 1
+      - path: Bone031/Bone032/Bone033/Bone034
+        weight: 1
+      - path: Bone031/Bone032/Bone033/Bone034/Bone035
+        weight: 1
+      - path: Bone031/Bone032/Bone033/Bone034/Bone035/Bone036
+        weight: 1
+      - path: Object032
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 

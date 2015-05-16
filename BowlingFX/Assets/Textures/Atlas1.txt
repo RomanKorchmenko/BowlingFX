@@ -1,0 +1,140 @@
+{"frames": {
+
+"DEfoultBtn_down.psd":
+{
+	"frame": {"x":2,"y":2,"w":400,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":60},
+	"sourceSize": {"w":400,"h":60}
+},
+"DEfoultBtn_up.psd":
+{
+	"frame": {"x":2,"y":64,"w":400,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":60},
+	"sourceSize": {"w":400,"h":60}
+},
+"DefoultMiddleBtn_up.psd":
+{
+	"frame": {"x":404,"y":64,"w":210,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":60},
+	"sourceSize": {"w":210,"h":60}
+},
+"DefoultSmollBtn_down.psd":
+{
+	"frame": {"x":2,"y":126,"w":140,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":60},
+	"sourceSize": {"w":140,"h":60}
+},
+"GUIBtnNewGame.psd":
+{
+	"frame": {"x":144,"y":126,"w":210,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":60},
+	"sourceSize": {"w":210,"h":60}
+},
+"GUIBtnNewGameOver.psd":
+{
+	"frame": {"x":356,"y":126,"w":210,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":60},
+	"sourceSize": {"w":210,"h":60}
+},
+"GUIBtnOptions.PSD":
+{
+	"frame": {"x":2,"y":188,"w":210,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":60},
+	"sourceSize": {"w":210,"h":60}
+},
+"GUIBtnOptionsOver.psd":
+{
+	"frame": {"x":214,"y":188,"w":210,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":60},
+	"sourceSize": {"w":210,"h":60}
+},
+"GUIExitPauseOrbBtn.PSD":
+{
+	"frame": {"x":426,"y":188,"w":98,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":38,"w":98,"h":60},
+	"sourceSize": {"w":98,"h":98}
+},
+"GUIPinsScreen.PSD":
+{
+	"frame": {"x":526,"y":188,"w":200,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":64},
+	"sourceSize": {"w":200,"h":64}
+},
+"GUIPlayerScreen.PSD":
+{
+	"frame": {"x":2,"y":254,"w":200,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":64},
+	"sourceSize": {"w":200,"h":64}
+},
+"GUIRoundsStatistikBack.PSD":
+{
+	"frame": {"x":204,"y":254,"w":480,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":64},
+	"sourceSize": {"w":480,"h":64}
+},
+"GUITopBar.psd":
+{
+	"frame": {"x":2,"y":320,"w":480,"h":168},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":168},
+	"sourceSize": {"w":480,"h":168}
+},
+"starWin.psd":
+{
+	"frame": {"x":2,"y":490,"w":256,"h":242},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":6,"w":256,"h":242},
+	"sourceSize": {"w":256,"h":256}
+},
+"switcherOff.psd":
+{
+	"frame": {"x":260,"y":490,"w":200,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":100},
+	"sourceSize": {"w":200,"h":100}
+},
+"switcherOn.psd":
+{
+	"frame": {"x":462,"y":490,"w":200,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":100},
+	"sourceSize": {"w":200,"h":100}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Atlas1.png",
+	"format": "RGBA8888",
+	"size": {"w":734,"h":734},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:11c70737c29a8046904e02e32734a38b:767984cd769dafdb20eedff3da81da66:2209e571c60dc8f07919e256e32ac23e$"
+}
+}

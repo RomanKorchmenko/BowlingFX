@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MsgEmiter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 23.2127876, z: -7.17163849}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3fea16fd8ce467eb219aa236fe1416, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerPause: 0
+  meshes:
+  - {fileID: 100004, guid: de573531d22cc4d5eacdb21d7c90a113, type: 2}
+  - {fileID: 100004, guid: 8078540762c1941c0b7a63ae23ce745f, type: 2}
+  - {fileID: 100004, guid: 0639a848b66a24c0f97f97f6f9a9ac7a, type: 2}
+  - {fileID: 100002, guid: 2431bc0ac49044f07938de784b77e58b, type: 2}
+  - {fileID: 100000, guid: dc72a23efcecaea46afd62915f415031, type: 2}
+  - {fileID: 100000, guid: 0604c973db9631c49a5b78a3fa681822, type: 2}
+  - {fileID: 100004, guid: ac71c59d69f26cc409f14342fab0a9c9, type: 2}
+  - {fileID: 100000, guid: f15ee544d2e3cd84db0a5bb9c2ca8d35, type: 2}
+  - {fileID: 100000, guid: 7f00da55ca4be404b84cd04ff973dc9c, type: 2}
+  - {fileID: 100004, guid: e12f6c236f8c5864daf981ab050e7c4e, type: 2}
+  - {fileID: 100004, guid: f11f372783539f3479caab7d6926a446, type: 2}
+  particles: []
+  levelIDComponent: {fileID: 0}
+  LevelID: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

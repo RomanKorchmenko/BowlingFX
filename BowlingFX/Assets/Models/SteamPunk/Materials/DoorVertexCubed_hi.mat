@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DoorVertexCubed_hi
+  m_Shader: {fileID: 4800000, guid: c3188e67d282f4e60bc3b7fb2fcb348d, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0a0d1711257f540c7a25a1a97f86a113, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diff
+        second:
+          m_Texture: {fileID: 2800000, guid: 48a42912b1f39c943b95d16984906941, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 8045f1cf44c5e48d191d2419e05bf27d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Texture
+        second:
+          m_Texture: {fileID: 2800000, guid: b87dc361e425c42f5b0675a132970c34, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node5
+        second:
+          m_Texture: {fileID: 2800000, guid: 6ca6a6c6bb34d424dba164784c23bcca, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node3
+        second:
+          m_Texture: {fileID: 8900000, guid: 8045f1cf44c5e48d191d2419e05bf27d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _night
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _multycube
+        second: 1.26999998
+      data:
+        first:
+          name: _CubeForce
+        second: .580357134
+      data:
+        first:
+          name: _VertexMultyply
+        second: 1
+      data:
+        first:
+          name: _node4
+        second: 1
+      data:
+        first:
+          name: _Opacity
+        second: 0
+      data:
+        first:
+          name: _Intensity
+        second: 8
+      data:
+        first:
+          name: _timespeed
+        second: .5
+      data:
+        first:
+          name: _falloff
+        second: 3
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .492647052, g: .492647052, b: .492647052, a: 1}
+      data:
+        first:
+          name: _color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _albedocolor
+        second: {r: .239864096, g: .365666896, b: .544776082, a: 1}
+      data:
+        first:
+          name: _multyColor
+        second: {r: 0, g: .538461685, b: 1, a: 1}
+      data:
+        first:
+          name: _nightOffset
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _nightMulty
+        second: {r: .813432813, g: .813432813, b: .813432813, a: 1}
