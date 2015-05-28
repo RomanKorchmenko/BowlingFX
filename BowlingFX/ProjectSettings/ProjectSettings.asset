@@ -8,7 +8,6 @@ PlayerSettings:
   defaultScreenOrientation: 4
   targetDevice: 2
   targetGlesGraphics: -1
-  targetIOSGraphics: -1
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: Roman Korchmenko
@@ -72,9 +71,8 @@ PlayerSettings:
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   productGUID: fda901812edb24efd875cc421d0a68ca
-  iPhoneBundleVersion: 0.9.0
-  iPhoneShortBundleVersion: 1.0
-  AndroidBundleVersionCode: 90
+  iPhoneBundleVersion: 0.9.1
+  AndroidBundleVersionCode: 91
   AndroidMinSdkVersion: 16
   AndroidPreferredInstallLocation: 0
   aotOptions: 
@@ -107,18 +105,9 @@ PlayerSettings:
     type: 3}
   iPadHighResLandscapeSplashScreen: {fileID: 2800000, guid: e887662f609961643bbd6e246a730226,
     type: 3}
-  iOSLaunchScreenType: 0
-  iOSLaunchScreenPortrait: {fileID: 0}
-  iOSLaunchScreenLandscape: {fileID: 0}
-  iOSLaunchScreenBackgroundColor:
-    serializedVersion: 2
-    rgba: 0
-  iOSLaunchScreenFillPct: 100
-  iOSLaunchScreenSize: 100
-  iOSLaunchScreenCustomXibPath: 
   AndroidTargetDevice: 3
   AndroidSplashScreenScale: 0
-  AndroidKeystoreName: BowlingFX.keystore
+  AndroidKeystoreName: D:/UnityProjects/BitBucketGIT/BowlingFX/BowlingFX/BowlingFX.keystore
   AndroidKeyaliasName: bowlingfx
   resolutionDialogBanner: {fileID: 2800000, guid: 139e4da6ed31cf847928658f8597cc64,
     type: 3}

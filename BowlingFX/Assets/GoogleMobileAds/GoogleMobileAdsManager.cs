@@ -99,9 +99,9 @@ public void DestroyInterstitial()
         #if UNITY_EDITOR
             string adUnitId = "unused";
         #elif UNITY_ANDROID
-		string adUnitId = "ca-app-pub-9393438190116381/9873615799";
+		string adUnitId = "ca-app-pub-9746781723497380/8100504154";
         #elif UNITY_IPHONE
-		string adUnitId = "ca-app-pub-9393438190116381/9873615799";
+		string adUnitId = "ca-app-pub-9746781723497380/8100504154";
         #else
             string adUnitId = "unexpected_platform";
         #endif
